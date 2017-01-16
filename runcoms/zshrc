@@ -23,6 +23,7 @@ if [ -f /Users/ajish/.tnsrc ]; then
 fi
 ###-tns-completion-end-###
 
+source /usr/local/share/antigen/antigen.zsh
 
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
